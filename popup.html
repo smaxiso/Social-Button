@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Social Button</title>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+	<style>
+		html, body {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			margin: 0;
+			min-height: 180px;
+			padding: 0;
+			width: 384px;
+		}
+		h1{
+			font-family: 'Menlo', monospace;
+			font-size: 22px;
+			font-weight: 400;
+			margin: 0;
+			color: #2f5876;
+
+		}
+		a:link, visited{
+			color: #000000;
+			outline: 0;
+			text-decoration: none;
+		}
+		img{
+			width: 30px;
+
+		}
+		.modal-header{
+			align-items: center;
+			border-bottom: 8.5px solid #dadada;
+		}
+		.modal-content{
+			padding: 0 22px;
+		}
+		.modal-icons{
+			border-top: 0.5px solid #dadada;
+			height: 50px;
+			width: 100%;
+		}
+		.logo{
+			padding: 16px;
+		}
+		.logo-icon{
+			vertical-align: text-bottom;
+			margin-right: 10px;
+		}
+		.version{
+			color: #444;
+			font-size: 18px;
+		}
+		.flex-container1{
+			display: flex;
+			justify-content: space-between;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px;
+		}
+		.flex-container2{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		.flex-container3{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		.flex-container4{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 180px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		.flex-container5{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 138px;
+			
+		}
+		.flex {
+			opacity: 5;
+			transition: opacity 0.2s ease-in-out;
+			width: 50px;
+		}
+		.flex:hover {
+			opacity: 0.2;
+			display: inline-block;
+		}
+		.flex .fa {
+			font-size: 30px;
+			color: #4480e2;
+		}
+		.my {
+			opacity: 5;
+			transition: opacity 0.2s ease-in-out;
+			width: 50px;
+		}
+		.my .fa:hover {
+			opacity: 0.2;
+			display: inline-block;
+		}
+		.my .fa {
+			font-size: 30px;
+			color: #000;
+		}
+		#hoverHide
+		{
+			display: none;
+		}
+
+	</style>
+
+
+
+</head>
+<body>
+	<div class="modal-header">
+		<h1 class = "logo" >
+			<img src="icon.png" alt="Social Button" class="logo-icon"> Social Button <span class="version">(1.0.0)</span>
+		</h1>
+	</div>
+	<div class="modal-content">
+		<p>Here you can access all <b>Social Button's</b> contents</p>
+	</div>
+	<div class="modal-icons">
+		<div class="flex-container1">
+			<div class="flex">
+				<a href="https://www.fb.com" title="Facebook" target="_blank">
+				<i class ="fa fa-facebook"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.instagram.com" target="_blank">
+				<i class ="fa fa-instagram"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.twitter.com/login" target="_blank">
+				<i class ="fa fa-twitter"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.linkedin.com" target="_blank">
+				<i class ="fa fa-linkedin"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://web.whatsapp.com/" target="_blank">
+				<i class ="fa fa-whatsapp"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.skype.com" target="_blank">
+				<i class ="fa fa-skype"></i>
+				</a>
+			</div>
+
+
+			</div>
+			<div class="flex-container2">
+				<div class="flex">
+				<a href="https://www.quora.com" target="_blank">
+				<i class ="fa fa-quora"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.reddit.com/" target="_blank">
+				<i class ="fa fa-reddit"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.tumblr.com" target="_blank">
+				<i class ="fa fa-tumblr"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://in.pinterest.com/" target="_blank">
+				<i class ="fa fa-pinterest"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.youtube.com" target="_blank">
+				<i class ="fa fa-youtube"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.plus.google.com" target="_blank">
+				<i class ="fa fa-google-plus"></i>
+				</a>
+			</div>
+		</div>
+		<div class="flex-container3">
+				<div class="flex">
+				<a href="https://www.gmail.com" target="_blank">
+				<i class ="fa fa-envelope-o"></i>
+				</a>
+			</div>
+			<div class="flex">
+				<a href="https://www.outlook.com/" target="_blank">
+				<i class ="fa fa-envelope-square"></i>
+				</a>
+			</div>
+		</div>
+		<div class="flex-container4">
+				<div class="flex">
+				<a href="popup.html" target="_blank">
+				<i class ="fa fa-home"></i>
+				</a>
+			</div>
+		</div>
+		<div class="flex-container5">
+				<div class="my" >
+					<button class="btn btn-danger" onmouseover="fun1()" onmouseout="fun2()"><b><a href="https://www.fb.com/smaxiso" target="_blank"> <i class="fa fa-facebook"></i></a></b>
+<div id="hoverHide">
+						its my facebook linkh
+					</div>
+					</button>
+					
+				</div>
+		</div>
+
+		</div>
+	</div>
+<script src="popup.js"></script>
+<script type="text/javascript">
+	
+	function fun1(){
+		document.getElementById('hoverHide').style.display="inline";
+		//document.getElementById('hoverHide').style.transition="2s";
+	}
+	function fun2()
+	{
+		document.getElementById('hoverHide').style.display="none";
+		//document.getElementById('hoverHide').style.transition="2s";
+	}
+</script>
+</body>
+</html>
